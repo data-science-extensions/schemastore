@@ -1,0 +1,22 @@
+{
+  "allow_undefined_sections": true,
+  "require_docstrings": false,
+  "check_private": true,
+  "validate_param_types": false,
+  "optional_style": "strict",
+  "sections": [
+    {
+      "name": "Parameters",
+      "type": "list_name_and_type",
+      "order": 1,
+      "admonition": "params",
+      "required": true
+    },
+    {
+      "name": "Returns",
+      "type": "free_text",
+      "order": 2,
+      "admonition": false
+    }
+  ]
+}
